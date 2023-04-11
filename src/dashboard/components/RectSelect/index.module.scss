@@ -1,0 +1,174 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  $primaryColor: #0e5e6f;
+  $primaryShallowColor: #3a8891;
+  $dotWidth: 6px;
+
+  .imgBox {
+    min-width: 1350px;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px dashed;
+    border-radius: 4px;
+
+    .content {
+      display: flex;
+
+      .leftBox {
+        width: 100%;
+        height: 100%;
+        border: 1px solid #111;
+        -webkit-user-drag: none;
+        user-select: none;
+        position: relative;
+
+        .img1 {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          -webkit-user-drag: none !important;
+          user-select: none;
+          pointer-events: none;
+        }
+        .mask {
+          @extend .img1;
+          background-color: rgba(0, 0, 0, 0.5);
+          z-index: 1;
+        }
+        .img2 {
+          @extend .img1;
+          z-index: 2;
+        }
+
+        .clipBox {
+          border: 1px solid #ff8e9e;
+          -webkit-user-drag: auto !important;
+          cursor: all-scroll;
+          z-index: 3;
+
+          $halfDotWidth: calc($dotWidth / -2);
+
+          .dot {
+            position: absolute;
+            width: $dotWidth;
+            height: $dotWidth;
+            background-color: #ff8e9e;
+          }
+
+          .leftUp {
+            top: $halfDotWidth;
+            left: $halfDotWidth;
+            cursor: nw-resize;
+          }
+          .up {
+            top: $halfDotWidth;
+            left: 50%;
+            margin-left: $halfDotWidth;
+            cursor: n-resize;
+          }
+          .rightUp {
+            top: $halfDotWidth;
+            right: $halfDotWidth;
+            cursor: ne-resize;
+          }
+          .right {
+            top: 50%;
+            margin-top: $halfDotWidth;
+            right: $halfDotWidth;
+            cursor: e-resize;
+          }
+          .rightDown {
+            bottom: $halfDotWidth;
+            right: $halfDotWidth;
+            cursor: se-resize;
+          }
+          .down {
+            bottom: $halfDotWidth;
+            left: 50%;
+            margin-left: $halfDotWidth;
+            cursor: s-resize;
+          }
+          .leftDown {
+            bottom: $halfDotWidth;
+            left: $halfDotWidth;
+            cursor: sw-resize;
+          }
+          .left {
+            top: 50%;
+            margin-top: $halfDotWidth;
+            left: $halfDotWidth;
+            cursor: w-resize;
+          }
+        }
+      }
+    }
+  }
+
+  .operationBtns {
+    display: flex;
+    justify-content: space-between;
+    width: 1350px;
+    margin: 10px auto 0;
+    .left {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 1160px;
+      .operationBtn {
+        margin-right: 12px;
+        font-family: SourceHanSansCN-Medium !important;
+        font-weight: 500;
+        border-radius: 4px;
+        margin-top: 10px;
+      }
+      :global {
+        .ant-btn {
+          background-color: $primaryShallowColor !important;
+        }
+        .ant-input-number-wrapper {
+          height: 34px !important;
+          .ant-input-number {
+            margin-top: 0 !important;
+            height: 100% !important;
+            .ant-input-number-input-wrap {
+              height: 100% !important;
+              input {
+                height: 100% !important;
+              }
+            }
+          }
+        }
+      }
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      width: 124px;
+      margin-top: 10px;
+      button {
+        border: 1px solid $primaryShallowColor !important;
+        span {
+          color: $primaryShallowColor !important;
+        }
+      }
+      .link {
+        color: #0e5e6f;
+        cursor: pointer;
+        margin-top: 16px;
+        text-align: center;
+        white-space: nowrap;
+        text-decoration: underline;
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_appName__",
+  "version": "1.0.0",
+  "description": "__MSG_appDescription__",
+  "icons": {
+    "16": "images/icon.png",
+    "32": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "permissions": ["tabs"],
+  "action": {
+    "default_title": "Processing Images Tool"
+  },
+  "background": {
+    "service_worker": "static/js/background.js",
+    "type": "module"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["images/*.png"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "default_locale": "en",
+  "homepage_url": "https://juejin.cn/post/7134996479873122312"
+}

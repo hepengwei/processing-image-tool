@@ -1,0 +1,97 @@
+{
+  "appName": { "message": "图片处理工具" },
+  "appDescription": { "message": "一款免费的离线处理图片工具，支持JPG、JPEG和PNG格式" },
+  "uploadFile": {
+    "message": "上传文件"
+  },
+  "dragTheFileHere": {
+    "message": "或将文件拖到此处"
+  },
+  "supportedImageType": {
+    "message": "支持jpg、jpeg、png格式"
+  },
+  "workHard": {
+    "message": "正在努力工作，请稍后"
+  },
+  "operationFailure": {
+    "message": "操作失败"
+  },
+  "noData": {
+    "message": "暂无"
+  },
+  "confirm": {
+    "message": "确定"
+  },
+  "clear": {
+    "message": "清空"
+  },
+  "unknown": {
+    "message": "未知"
+  },
+  "dimension": {
+    "message": "尺寸"
+  },
+  "size": {
+    "message": "大小"
+  },
+
+  "basicOperation": { "message": "基础操作" },
+  "rectangularClipping": { "message": "矩形裁剪" },
+  "roundedCornerClipping": { "message": "圆角裁剪" },
+  "modifyTheSize": { "message": "修改尺寸" },
+  "modifyBrightness": { "message": "修改亮度" },
+  "modifyTransparency": { "message": "修改透明度" },
+  "addWatermark": { "message": "添加水印" },
+  "coverWithMosaics": { "message": "打马赛克" },
+  "imageCompression": { "message": "图片压缩" },
+
+  "imageTooSmall": { "message": "请选择20x20以上尺寸的图片" },
+  "imageTooLarge": { "message": "请选择10000x10000以下尺寸的图片" },
+  "watermarkSizeLimit": { "message": "请选择20x20以上尺寸的水印图片" },
+  "watermarkSizeTooLarge": { "message": "请选择小于目标图片尺寸的水印图片" },
+  "uploadWatermark": { "message": "上传水印" },
+  "distanceLeft": { "message": "距离左侧" },
+  "distanceTop": { "message": "距离顶部" },
+  "filename": { "message": "文件名" },
+  "format": { "message": "格式" },
+  "flipSideToSide": { "message": "左右翻转" },
+  "flipTopToBottom": { "message": "上下翻转" },
+  "rotateLeft": { "message": "左旋转" },
+  "rotateRight": { "message": "右旋转" },
+  "graying": { "message": "灰化" },
+  "vampix": { "message": "黑白化" },
+  "shmpch": { "message": "锐化" },
+  "edgeSharpening": { "message": "边缘锐化" },
+  "filterContrast": { "message": "反色滤镜" },
+  "redFilter": { "message": "红色滤镜" },
+  "greenFilter": { "message": "绿色滤镜" },
+  "blueFilter": { "message": "蓝色滤镜" },
+  "redGreenFilter": { "message": "红绿色滤镜" },
+  "redBlueFilter": { "message": "红蓝色滤镜" },
+  "blueGreenFilter": { "message": "蓝绿色滤镜" },
+  "redGreyFilter": { "message": "红灰色滤镜" },
+  "greenGreyFilter": { "message": "绿灰色滤镜" },
+  "blueGreyFilter": { "message": "蓝灰色滤镜" },
+  "jpgToPng": { "message": "JPG转PNG" },
+  "pngToJpg": { "message": "PNG转JPG" },
+  "pleaseEnterBrightness": { "message": "请输入亮度值" },
+  "darken": { "message": "变暗" },
+  "lighten": { "message": "变亮" },
+  "pleaseEnterDiaphaneity": { "message": "请输入透明度值" },
+  "pleaseUploadPng": { "message": "请上传PNG格式的图片" },
+  "whetherValueFixed": { "message": "是否统一为固定值" },
+  "becomeTransparent": { "message": "变透明" },
+  "becomeOpaque": { "message": "变不透" },
+  "pleaseEnterWidthOrHeight": { "message": "请输入宽度或高度" },
+  "width": { "message": "宽度" },
+  "height": { "message": "高度" },
+  "whetherMaintainOriginalProportion": { "message": "是否保持原比例" },
+  "compressibility": { "message": "压缩率" },
+  "pleaseEnterFilletRadius": { "message": "请输入圆角半径" },
+  "filletRadius": { "message": "圆角半径" },
+  "clippedAndConvertedToPng": { "message": "裁剪后转成PNG格式" },
+  "whetherRetainOriginalDimension": { "message": "是否保留原尺寸" },
+  "clippingWidth": { "message": "裁剪宽度" },
+  "clippingHeight": { "message": "裁剪高度" },
+  "mosaicGrainSize": { "message": "马赛克颗粒大小" }
+}

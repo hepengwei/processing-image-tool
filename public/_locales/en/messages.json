@@ -1,0 +1,109 @@
+{
+  "appName": { "message": "Processing Images Tool" },
+  "appDescription": {
+    "message": "A free, offline image processing tool. JPG, JPEG and PNG formats are supported"
+  },
+  "uploadFile": {
+    "message": "Upload File"
+  },
+  "dragTheFileHere": {
+    "message": "Or drag the file here"
+  },
+  "supportedImageType": {
+    "message": "Jpg, jpeg, and png are supported"
+  },
+  "workHard": {
+    "message": "Hard at work, please hold on"
+  },
+  "operationFailure": {
+    "message": "Operation failure"
+  },
+  "noData": {
+    "message": "No data"
+  },
+  "confirm": {
+    "message": "Confirm"
+  },
+  "clear": {
+    "message": "Clear"
+  },
+  "unknown": {
+    "message": "Unknown"
+  },
+  "dimension": {
+    "message": "Dimension"
+  },
+  "size": {
+    "message": "Size"
+  },
+
+  "basicOperation": { "message": "Basic Operation" },
+  "rectangularClipping": { "message": "Rectangular Clipping" },
+  "roundedCornerClipping": { "message": "Rounded Corner Clipping" },
+  "modifyTheSize": { "message": "Modify The Size" },
+  "modifyBrightness": { "message": "Modify Brightness" },
+  "modifyTransparency": { "message": "Modify Transparency" },
+  "addWatermark": { "message": "Add Watermark" },
+  "coverWithMosaics": { "message": "Cover With Mosaics" },
+  "imageCompression": { "message": "Image Compression" },
+
+  "imageTooSmall": { "message": "Please select the size above 20x20" },
+  "imageTooLarge": { "message": "Please select the size below 1350x1350" },
+  "watermarkSizeLimit": {
+    "message": "Please select watermark images of 20x20 and above"
+  },
+  "watermarkSizeTooLarge": {
+    "message": "Please select a watermark image that is smaller than the size of the target image"
+  },
+  "uploadWatermark": { "message": "Upload watermark" },
+  "distanceLeft": { "message": "Distance left" },
+  "distanceTop": { "message": "Distance Top" },
+  "filename": { "message": "Filename" },
+  "format": { "message": "Format" },
+  "flipSideToSide": { "message": "Flip Side To Side" },
+  "flipTopToBottom": { "message": "Flip Top To Bottom" },
+  "rotateLeft": { "message": "Rotate Left" },
+  "rotateRight": { "message": "Rotate Right" },
+  "graying": { "message": "Graying" },
+  "vampix": { "message": "Vampix" },
+  "shmpch": { "message": "Shmpch" },
+  "edgeSharpening": { "message": "Edge Sharpening" },
+  "filterContrast": { "message": "Filter Contrast" },
+  "redFilter": { "message": "Red Filter" },
+  "greenFilter": { "message": "Green Filter" },
+  "blueFilter": { "message": "Blue Filter" },
+  "redGreenFilter": { "message": "Red-green Filter" },
+  "redBlueFilter": { "message": "Red-blue Filter" },
+  "blueGreenFilter": { "message": "Blue-green Filter" },
+  "redGreyFilter": { "message": "Red-grey Filter" },
+  "greenGreyFilter": { "message": "Green-grey Filter" },
+  "blueGreyFilter": { "message": "Blue-grey Filter" },
+  "jpgToPng": { "message": "JPG To PNG" },
+  "pngToJpg": { "message": "PNG To JPG" },
+  "pleaseEnterBrightness": { "message": "Please enter the brightness value" },
+  "darken": { "message": "Darken" },
+  "lighten": { "message": "Lighten" },
+  "pleaseEnterDiaphaneity": { "message": "Please enter a transparency value" },
+  "pleaseUploadPng": { "message": "Please upload the image in png format" },
+  "whetherValueFixed": { "message": "Whether the value is fixed" },
+  "becomeTransparent": { "message": "Become transparent" },
+  "becomeOpaque": { "message": "Become opaque" },
+  "pleaseEnterWidthOrHeight": { "message": "Please enter width or height" },
+  "width": { "message": "Width" },
+  "height": { "message": "Height" },
+  "whetherMaintainOriginalProportion": {
+    "message": "Whether to maintain the original proportion"
+  },
+  "compressibility": { "message": "Compressibility" },
+  "pleaseEnterFilletRadius": { "message": "Please enter the fillet radius" },
+  "filletRadius": { "message": "Fillet radius" },
+  "clippedAndConvertedToPng": {
+    "message": "Clipped and converted to PNG format"
+  },
+  "whetherRetainOriginalDimension": {
+    "message": "Whether to retain the original dimension"
+  },
+  "clippingWidth": { "message": "Clipping width" },
+  "clippingHeight": { "message": "Clipping height" },
+  "mosaicGrainSize": { "message": "Mosaic grain size" }
+}
